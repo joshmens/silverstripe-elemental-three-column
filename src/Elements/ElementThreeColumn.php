@@ -63,7 +63,7 @@ class ElementThreeColumn extends BaseElement
 
         $ColOne = $fields->fieldByName('Root.Main.ColOne');
         $ColTwo = $fields->fieldByName('Root.Main.ColTwo');
-        $ColTwo = $fields->fieldByName('Root.Main.ColThree');
+        $ColThree = $fields->fieldByName('Root.Main.ColThree');
 
         return $fields;
     }
